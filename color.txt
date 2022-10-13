@@ -1,0 +1,22 @@
+crate.mod.pod
+
+&[ ... ] from sys.deep.dref
+{ ... } from std.core if depends std.ext
+!( ... ) from std.core if depends std.ext
+( ... )
+
+'() from sys.deep.inject
+
+*x
+x*
+
+#
+
+$ ... from std.ext.ref
+
+%
+
+@ from std.ext.lambda
+` ... ` from std.ext.lambda
+
+< ... >

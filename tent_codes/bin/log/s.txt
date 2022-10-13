@@ -1,0 +1,47 @@
+|
+|  ** tent_codes from package tent_codes  **
+|  ** Tentative ToolChain on Color Design **
+|  ** Sample for such as InterFace.       **
+|  ** Current version: 1.0.0              **
+|
+|  Log: arg...
+|  Err: The file in specified by path colorList.txt is not exists.
+|  PATH: D:\Users\haruka.dev\ResDev\_Orgs\CL-GDAL\CL_KIITA\IWCC\tent_codes
+|
+|  ** tent_codes from package tent_codes  **
+|  ** Tentative ToolChain on Color Design **
+|  ** Sample for such as InterFace.       **
+|  ** Current version: 1.0.0              **
+|
+|  Log: arg...
+|  Err: The file in specified by path colorList.txt is not exists.
+|  PATH: D:\Users\haruka.dev\ResDev\_Orgs\CL-GDAL\CL_KIITA\IWCC\tent_codes
+|
+|  ** tent_codes from package tent_codes  **
+|  ** Tentative ToolChain on Color Design **
+|  ** Sample for such as InterFace.       **
+|  ** Current version: 1.0.0              **
+|
+|  Log: arg...
+|  Err: The file in specified by path colorList.txt is not exists.
+|  PATH: D:\Users\haruka.dev\ResDev\_Orgs\CL-GDAL\CL_KIITA\IWCC\tent_codes
+ 
+|
+|  ** tent_codes from package tent_codes  **
+|  ** Tentative ToolChain on Color Design **
+|  ** Sample for such as InterFace.       **
+|  ** Current version: 1.0.0              **
+|
+|  Log: arg...
+|  Err: The file in specified by path colorList.txt is not exists.
+|  PATH: D:\Users\haruka.dev\ResDev\_Orgs\CL-GDAL\CL_KIITA\IWCC\tent_codes
+ ÿ
+|
+|  ** tent_codes from package tent_codes  **
+|  ** Tentative ToolChain on Color Design **
+|  ** Sample for such as InterFace.       **
+|  ** Current version: 1.0.0              **
+|
+|  Log: arg...
+|  Err: The file in specified by path colorList.txt is not exists.
+|  PATH: D:\Users\haruka.dev\ResDev\_Orgs\CL-GDAL\CL_KIITA\IWCC\tent_codes

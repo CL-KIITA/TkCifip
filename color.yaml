@@ -1,0 +1,32 @@
+base:
+  size: "3000 *"
+  color: none
+  margin: "10"
+  space: "7"
+  font: SampleFont
+  dependencies:
+    - mod: "std.ext"
+    - mod: "sys.deep"
+      from: "sys"
+    - crate: "sys"
+res:
+  SampleFont: ./sample.ttf
+  
+common:
+  size: "60"
+  color: white
+run:
+  - text: "Comparison"
+  - grid:
+      size: "3 *"
+      children:
+        - use:
+            - pod: "lambda"
+              from: "std.ext"
+            - pod: "inject"
+              from: "sys.deep"
+            - pod: "dref"
+              from: "sys.deep"
+            - pod: "ref"
+              from: "std.ext"
+          cmd: "!($count.x == 3): &[self.size.x] -> '() @e `e' = {e * 2}`"
