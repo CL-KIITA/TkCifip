@@ -55,7 +55,7 @@ class HColor {
     try {
       HColor h = HColor.fromHex(src);
       return h;
-    } on NotHexColorErr catch (e) {
+    } on NotHexColorErr catch (_) {
       String t = src.toLowerCase();
       List<double> nrs = t.substring(t.indexOf("(") - 1, t.indexOf(")")).csn2list();
       if (nrs.length < 3) {

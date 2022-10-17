@@ -44,3 +44,50 @@ extension StackIterate<T> on Stack<T> {
     }
   }
 }
+extension StringLocation on String{
+  List<int> allIndexesOf(Pattern pattern){
+    int loc = 0;
+    int temp = 0;
+    List<int> res = [];
+    while(true){
+      if(loc > this.length){
+        break;
+      }
+      temp = this.indexOf(pattern, loc);
+      if(temp < 0){
+        break;
+      }
+      res.add(temp);
+      loc = temp + 1;
+    }
+    return res;
+  }
+  int counts(Pattern pattern){
+    int loc = 0;
+    int temp = 0;
+    int count = 0;
+    while(true){
+      if(loc > this.length){
+        break;
+      }
+      temp = this.indexOf(pattern, loc);
+      if(temp < 0){
+        break;
+      }
+      count++;
+      loc = temp + 1;
+    }
+    return count;
+  }
+}
+class Range<E extends num>{
+  final E start;
+  final E end;
+  final E interv;
+  const Range(this.start, this.end, [E? interv]): this.interv = interv != null ? interv : 1 as E;
+  List<E> toList() => List<E>.generate(((this.end - this.start) / this.interv).floor(), (int index) => this.start + this.interv * index as E);
+  List<E> call() => this.toList();
+}
+extension IndexedMap<E> on List<E> {
+  List<R> indexedMap<R>(R Function(int,E) fn) => this.asMap().map<int,R>((int key, E value) => MapEntry(key, fn(key, value))).values.toList();
+}
